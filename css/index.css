@@ -108,6 +108,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    
 }
 
 .section {
@@ -189,6 +190,11 @@ body {
 .main__imagen {
     object-fit: cover;
     border-radius: 25px;
+    transition: transform 0.5s;
+}
+
+.main__imagen:hover {
+    transform: scale(1.1);
 }
 
 .footer {
