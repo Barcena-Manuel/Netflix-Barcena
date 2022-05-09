@@ -9,6 +9,11 @@ body {
     font-family: "Segoe UI";
 }
 
+.body {
+    background-color: #141414;
+    font-family: "Segoe UI";
+}
+
 .header {
     top: 0;
     width: 100%;
@@ -197,7 +202,15 @@ body {
     transform: scale(1.1);
 }
 
-.footer {
+/*.text-center {
+    background-color: black;
+}*/
+
+.color-footer {
+    color: white;
+}
+
+/*.footer {
     background-color: black;
     padding: 3rem;
 }
@@ -244,7 +257,7 @@ body {
 
 .footer__rede4 {
     margin: 1rem;
-}
+}*/
 
 @media screen and (max-width: 1300px) {
     .main__grid {
